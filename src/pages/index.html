@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topline Innovations Limited | New Tyres, Batteries &amp; Delivery in Lusaka</title>
+<meta name="description" content="Quality brand new Leao and Linglong tyres at competitive prices, plus car batteries, oil and filters. Delivery across Lusaka. Send your tyre size on WhatsApp and get a price fast.">
+<meta name="theme-color" content="#e3151d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Topline Innovations Limited | New Tyres in Lusaka">
+<meta property="og:description" content="Brand new Leao and Linglong tyres, batteries and accessories. Delivery across Lusaka.">
+<link rel="icon" type="image/webp" href="images/topline-icon.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Big+Shoulders+Display:wght@700;900&display=swap" rel="stylesheet">
+
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TyreShop","name":"Topline Innovations Limited","telephone":"+260979033871","email":"toplineinnovations81@gmail.com","sameAs":["https://www.facebook.com/profile.php?id=61560933303059"],"geo":{"@type":"GeoCoordinates","latitude":-15.3804868,"longitude":28.2811714},"hasMap":"https://maps.app.goo.gl/1sTgwN3sQPb4c2np9",
+ "address":{"@type":"PostalAddress","streetAddress":"156 Bimbe Road, Chaisa, Emmasdale","addressLocality":"Lusaka","addressCountry":"ZM"},
+ "openingHours":"Mo-Su 08:00-17:30"}
+</script>
+
+<style>
+:root{
+  --red:#e3151d; --bg:#010101; --bg2:#141417; --dim:#aeb2bb; --rubber:#17181c; --fog:#ecedef; --paper:#fff; --amber:#ffc21a; --muted:#5b5f68;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Archivo",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--bg);color:var(--paper);line-height:1.55;padding-bottom:76px;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--paper);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.9;letter-spacing:.005em}
+h2{font-size:clamp(2.8rem,7vw,5.2rem);margin-bottom:40px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;background:radial-gradient(60% 75% at 82% 50%,rgba(227,21,29,.38),transparent 70%),var(--bg);color:var(--paper);overflow:hidden;min-height:92vh;display:flex;flex-direction:column}
+nav{position:relative;z-index:3}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:22px;padding-bottom:22px}
+.logo{display:flex;align-items:center;gap:12px;font-family:var(--display);font-weight:900;font-size:1.8rem;text-transform:uppercase;text-decoration:none;letter-spacing:.02em}
+.nav-r{display:flex;align-items:center;gap:22px;font-weight:600}
+.nav-r a{text-decoration:none}
+.pill{background:var(--red);color:var(--paper);padding:10px 18px;border-radius:99px}
+@media(max-width:640px){.nav-r a:not(.pill){display:none}}
+
+.hero-body{position:relative;z-index:2;flex:1;display:flex;align-items:center;padding:30px 0 70px}
+.logo img{display:block;height:42px;width:auto}
+.foot img{display:block;width:min(420px,100%);height:auto;margin-bottom:14px}
+.hero h1{font-size:clamp(4rem,13vw,10rem);max-width:7.5ch}
+.hero .sub{margin:22px 0 32px;max-width:44ch;font-size:1.15rem;color:rgba(255,255,255,.85)}
+
+.tyre{position:absolute;z-index:1;top:0;bottom:0;right:-14%;width:min(72vw,820px);display:grid;place-items:center}
+.roll{width:100%;animation:roll 1.8s cubic-bezier(.18,.8,.25,1) both}
+.roll svg{display:block;width:100%;height:auto;animation:spin 70s linear infinite;filter:drop-shadow(0 30px 40px rgba(227,21,29,.5))}
+@keyframes roll{from{transform:translateX(55%) rotate(-200deg);opacity:0}to{transform:none;opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:860px){.tyre{right:-48%;width:135vw;opacity:.28;top:auto;height:100%}}
+@media(prefers-reduced-motion:reduce){.roll,.roll svg{animation:none}html{scroll-behavior:auto}}
+
+/* ---------- Size finder ---------- */
+.finder{background:var(--paper);color:var(--rubber);border-radius:20px;padding:24px;max-width:500px;box-shadow:0 24px 60px rgba(0,0,0,.6)}
+.finder .t{font-weight:600;margin-bottom:12px;display:block}
+.size{display:flex;align-items:flex-end;gap:8px;font-family:var(--display);font-weight:900;font-size:3.2rem;line-height:1}
+.size div{display:flex;flex-direction:column;min-width:0}
+.size small{font-family:var(--body);font-weight:400;font-size:.75rem;color:var(--muted);margin-bottom:4px}
+.size input{width:100%;min-width:0;font:inherit;color:var(--rubber);background:transparent;border:0;border-bottom:4px solid var(--red);border-radius:0;padding:0;text-align:center}
+.size input::placeholder{color:#c3c6cd}
+.size .w{flex:1.3}.size .p,.size .r{flex:1}
+.size .sep{color:var(--muted);padding-bottom:2px}
+.err{min-height:1.3em;margin-top:8px;font-size:.9rem;color:#c0341d}
+.btn{display:block;width:100%;font:inherit;font-weight:600;font-size:1.05rem;text-align:center;text-decoration:none;background:var(--red);color:var(--paper);border:0;border-radius:12px;padding:16px;cursor:pointer;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.hint{margin-top:10px;font-size:.85rem;color:var(--muted)}
+
+
+/* ---------- Size chips ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;align-items:center;font-size:.85rem;color:var(--muted)}
+.chips button{font:inherit;font-weight:600;background:var(--fog);color:var(--rubber);border:0;border-radius:99px;padding:6px 12px;cursor:pointer}
+.chips button:hover{background:var(--red);color:var(--paper)}
+
+/* ---------- Brand panels ---------- */
+.bgrid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.bp{background:var(--paper);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.bp .logo-box{display:grid;place-items:center;padding:20px;border-bottom:2px solid var(--fog)}
+.bp .logo-box img{display:block;max-width:100%;height:120px;object-fit:contain}
+.bp.leao .logo-box{background:#fcc400;padding:0}
+.bp.leao .logo-box img{height:150px}
+.bp img.photo{display:block;width:100%;height:340px;object-fit:cover}
+.bp .info{padding:18px 22px 24px}
+.bp .info p{color:var(--muted)}
+.bp h3{font-size:2rem;color:var(--rubber);margin-bottom:6px}
+@media(max-width:760px){.bgrid{grid-template-columns:1fr}}
+
+section{padding:96px 0}
+
+
+/* ---------- Tyre prices ---------- */
+.lead{color:var(--dim);max-width:52ch;margin:-18px 0 32px;font-size:1.1rem}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.pr{display:flex;flex-direction:column;gap:4px;padding:22px;border-radius:18px;background:var(--bg2);border:2px solid rgba(255,255,255,.12);text-decoration:none;transition:border-color .2s}
+.pr:hover{border-color:var(--red)}
+.pr .sz{font-family:var(--display);font-weight:900;font-size:2.3rem;line-height:1}
+.pr .pc{font-family:var(--display);font-weight:700;font-size:2rem;line-height:1.1;color:var(--red)}
+.pr .go{font-size:.85rem;color:var(--dim);margin-top:4px}
+.more{font-size:2rem;margin:48px 0 14px}
+.sizes{display:flex;flex-wrap:wrap;gap:8px}
+.sizes a{font-weight:600;text-decoration:none;padding:9px 16px;border-radius:99px;border:2px solid rgba(255,255,255,.28)}
+.sizes a:hover{border-color:var(--red);background:var(--red)}
+.note{margin-top:22px;color:var(--dim);font-size:.9rem}
+
+
+/* ---------- About ---------- */
+.about{background:var(--bg2)}
+.about .ag{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+.about h2{font-size:clamp(2.2rem,5vw,3.8rem);margin-bottom:0}
+.about p{color:var(--dim);font-size:1.15rem;max-width:56ch;margin-bottom:18px}
+.about p.tag{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:2.2rem;color:var(--paper);line-height:1;margin-top:26px}
+.about .btn{display:inline-block;width:auto;padding:16px 28px;margin-top:6px}
+@media(max-width:800px){.about .ag{grid-template-columns:1fr;gap:24px}}
+
+/* ---------- Services ---------- */
+.row{display:grid;grid-template-columns:1.2fr 1.4fr auto;gap:28px;align-items:baseline;padding:28px 0;border-top:2px solid rgba(255,255,255,.22)}
+.row:last-child{border-bottom:2px solid rgba(255,255,255,.22)}
+.row h3{font-size:clamp(2rem,4.5vw,3.4rem)}
+.row p{color:var(--dim);max-width:38ch}
+.row .price{font-family:var(--display);font-weight:700;font-size:1.5rem;white-space:nowrap}
+@media(max-width:760px){.row{grid-template-columns:1fr;gap:6px}}
+
+/* ---------- How it works ---------- */
+.how{background:var(--bg2)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.step .n{font-family:var(--display);font-weight:900;font-size:7rem;line-height:.8;color:transparent;-webkit-text-stroke:2px var(--red)}
+.step h3{font-size:2rem;margin:16px 0 8px}
+.step p{color:var(--dim);max-width:30ch}
+@media(max-width:760px){.steps{grid-template-columns:1fr;gap:34px}.step .n{font-size:5rem}}
+
+
+
+/* ---------- Gallery ---------- */
+.gal{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:300px;gap:14px}
+.gal figure{margin:0;border-radius:16px;overflow:hidden;background:var(--bg2)}
+.gal img{display:block;width:100%;height:100%;object-fit:cover}
+.gal .a{grid-column:span 4}.gal .b{grid-column:span 2}.gal .c,.gal .d{grid-column:span 3}
+@media(max-width:760px){.gal{grid-template-columns:1fr;grid-auto-rows:240px}.gal figure{grid-column:auto!important}}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
+.links a{font-weight:600;text-decoration:none;padding:12px 18px;border-radius:99px;border:2px solid rgba(255,255,255,.4)}
+.links a:first-child{background:var(--red);border-color:var(--red)}
+.links a:hover{border-color:var(--paper)}
+.mail{margin:-16px 0 24px;color:var(--dim)}
+.mail a{color:var(--paper)}
+
+/* ---------- Visit ---------- */
+.visit{background:var(--bg2);color:var(--paper)}
+.visit h2{color:var(--red)}
+.v-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:48px}
+.addr{font-size:1.3rem;font-weight:600}
+.addr a{display:inline-block;margin:8px 0 28px;color:var(--red);font-size:1.6rem;font-family:var(--display);font-weight:700;letter-spacing:.03em}
+.hours{width:100%;border-collapse:collapse;color:rgba(255,255,255,.85)}
+.hours td{padding:12px 0;border-top:1px solid rgba(255,255,255,.18)}
+.hours td:last-child{text-align:right;font-weight:600;color:var(--paper)}
+.phones{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:6px;color:rgba(255,255,255,.85)}
+.phones a{color:var(--paper);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.map{width:100%;min-height:340px;height:100%;border:0;border-radius:18px;background:#2a2c33}
+@media(max-width:800px){.v-grid{grid-template-columns:1fr}}
+
+/* ---------- Review ---------- */
+.quote{font-family:var(--display);font-weight:700;font-size:clamp(2rem,5vw,3.8rem);line-height:1.05;max-width:20ch;text-transform:none}
+.quote-by{margin-top:22px;color:var(--dim);font-weight:600}
+
+footer{padding:34px 0;color:var(--dim);font-size:.9rem}
+
+/* ---------- Sticky contact bar ---------- */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:#000;border-top:1px solid rgba(255,255,255,.15)}
+.bar a{flex:1;text-align:center;text-decoration:none;font-weight:600;padding:14px 8px;border-radius:12px}
+.bar .call{background:var(--red);color:var(--paper)}
+.bar .wa{background:#1fa855;color:var(--paper)}
+@media(min-width:900px){.bar{left:auto;right:24px;bottom:24px;width:380px;border-radius:18px}}
+
+/* ---------- Announcement bar, hero video, strip, offers, CTA, footer ---------- */
+.ann{background:var(--paper);color:#111;text-align:center;font-weight:600;font-size:.92rem;padding:9px 16px}
+.ann a{color:var(--red);font-weight:700}
+.bgv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:0;transition:opacity 1.2s}
+.hero.hasvideo .bgv{opacity:1}
+.hero.hasvideo .tyre{opacity:0;transition:opacity 1s}
+.hero.hasvideo::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(1,1,1,.92),rgba(1,1,1,.55) 62%,rgba(1,1,1,.4))}
+@media(max-width:860px){.hero.hasvideo::after{background:rgba(1,1,1,.72)}}
+.strip{background:var(--red)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip .wrap>div{padding:24px 18px;border-left:1px solid rgba(255,255,255,.3)}
+.strip .wrap>div:first-child{border-left:0;padding-left:0}
+.strip b{display:block;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:1.7rem;line-height:1}
+.strip span{display:block;font-size:.92rem;opacity:.92;margin-top:4px}
+@media(max-width:760px){.strip .wrap{grid-template-columns:1fr 1fr}.strip .wrap>div:nth-child(3){border-left:0;padding-left:0}}
+.offers{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px}
+.offers a{flex:0 0 min(78vw,300px);scroll-snap-align:start;border-radius:16px;overflow:hidden;background:var(--bg2);text-decoration:none}
+.offers img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover}
+.offers span{display:block;padding:12px 14px;font-weight:600}
+.cta{background:var(--red);text-align:center;padding:84px 0}
+.cta h2{margin-bottom:14px}
+.cta p{font-size:1.2rem;margin-bottom:28px}
+.cta-b{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta-b a{font-weight:600;text-decoration:none;padding:16px 28px;border-radius:12px;border:2px solid var(--paper)}
+.cta-b .w{background:var(--paper);color:var(--red)}
+footer{padding:56px 0 34px;border-top:1px solid rgba(255,255,255,.12)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1.4fr 1fr;gap:36px}
+.fgrid h4{font-family:var(--display);text-transform:uppercase;font-size:1.4rem;color:var(--paper);margin-bottom:12px}
+.fgrid a,.fgrid span{display:block;color:var(--dim);text-decoration:none;margin-bottom:8px}
+.fgrid a:hover{color:var(--paper)}
+.fgrid img{display:block;width:min(300px,100%);height:auto}
+.copy{margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr 1fr}}
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1),border-color .2s}
+.rv.in{opacity:1;transform:none}
+.openNow::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:#c0341d;margin-right:7px;vertical-align:middle}
+.openNow.is-open::before{background:#1fa855}
+.visit .openNow{color:var(--paper);font-weight:600}
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.lead2{color:var(--dim);font-size:1.15rem;max-width:44ch;margin-bottom:22px}
+.dl{list-style:none;padding:0;display:grid;gap:10px;font-weight:600}
+.dl li::before{content:"\2713";color:var(--red);margin-right:10px}
+.dform{background:var(--paper);color:var(--rubber);border-radius:20px;padding:24px;display:grid;gap:14px}
+.dform label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.dform input{font:inherit;font-size:16px;font-weight:400;padding:12px;border:2px solid #d3d6dc;border-radius:10px;color:var(--rubber);background:#fff}
+.dform input:focus{border-color:var(--red);outline:0}
+.est{min-height:1.3em;font-weight:600;font-size:.95rem}
+@media(max-width:800px){.dgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="ann"><span class="openNow">Open daily · 08:00 to 17:30</span> &nbsp;|&nbsp; Prices and delivery on WhatsApp: <a id="annWa" href="#" target="_blank" rel="noopener">+260 979 033 871</a></div>
+
+<header class="hero" id="top">
+  <nav>
+    <div class="wrap">
+      <a class="logo" href="#top"><img src="images/topline-icon.webp" alt="" width="74" height="42"><span id="shopName">Topline Innovations</span></a>
+      <div class="nav-r">
+        <a href="#prices">Prices</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#visit">Find us</a>
+        <a class="pill" id="navWa" href="#" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Background video: put your file at video/hero.mp4. If it is missing, the animated tyre below shows instead. -->
+  <video class="bgv" muted loop playsinline autoplay preload="metadata" aria-hidden="true"><source src="video/hero.mp4" type="video/mp4"></video>
+
+  <!-- The tyre: pure SVG, no images to load -->
+  <div class="tyre" aria-hidden="true">
+    <div class="roll">
+      <svg viewBox="-250 -250 500 500">
+        <defs>
+          <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#eef0f4"/><stop offset=".5" stop-color="#9ea3ad"/><stop offset="1" stop-color="#e3e5ea"/>
+          </linearGradient>
+          <path id="sw" d="M -138 0 a138 138 0 1 1 276 0 a138 138 0 1 1 -276 0"/>
+        </defs>
+        <circle r="236" fill="#e3151d"/>
+        <circle r="232" fill="#0e0f12"/>
+        <circle r="218" fill="none" stroke="#2a2c33" stroke-width="26" stroke-dasharray=".62 .38" pathLength="64"/>
+        <circle r="190" fill="none" stroke="#25272d" stroke-width="22" stroke-dasharray=".62 .38" stroke-dashoffset=".5" pathLength="64"/>
+        <circle r="172" fill="#17181c"/>
+        <circle r="170" fill="none" stroke="#31343b" stroke-width="2"/>
+        <text font-size="17" font-weight="600" fill="#8b909b" letter-spacing="3"><textPath href="#sw" textLength="860" lengthAdjust="spacing">205/55 R16 • TOPLINE INNOVATIONS • 91V • TUBELESS • DELIVERED ACROSS LUSAKA •</textPath></text>
+        <circle r="108" fill="url(#metal)"/>
+        <circle r="94" fill="#23252b"/>
+        <g fill="url(#metal)">
+          <path id="sp" d="M-13 -24 L-9 -90 L9 -90 L13 -24Z"/>
+          <use href="#sp" transform="rotate(72)"/><use href="#sp" transform="rotate(144)"/>
+          <use href="#sp" transform="rotate(216)"/><use href="#sp" transform="rotate(288)"/>
+        </g>
+        <circle r="30" fill="url(#metal)"/>
+        <circle r="10" fill="#23252b"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <h1>Drive with confidence.</h1>
+      <p class="sub">Brand new tyres, batteries and auto accessories, with delivery across Lusaka. Type your size and we'll reply on WhatsApp with price and stock.</p>
+
+      <form class="finder" id="finder" novalidate>
+        <label class="t">Your size is printed on the tyre sidewall</label>
+        <div class="size">
+          <div class="w"><small>Width</small><input id="w" inputmode="numeric" maxlength="3" placeholder="205" aria-label="Tyre width"></div>
+          <span class="sep">/</span>
+          <div class="p"><small>Profile</small><input id="p" inputmode="numeric" maxlength="2" placeholder="55" aria-label="Tyre profile"></div>
+          <span class="sep">R</span>
+          <div class="r"><small>Rim</small><input id="r" inputmode="numeric" maxlength="2" placeholder="16" aria-label="Rim size"></div>
+        </div>
+        <div class="err" id="err" role="alert"></div>
+        <button class="btn" type="submit">Get a price on WhatsApp</button>
+        <p class="hint">WhatsApp opens with your size already typed in.</p>
+        <div class="chips">Popular sizes: <button type="button" data-s="185/70/14">185/70R14</button><button type="button" data-s="175/70/14">175/70R14</button><button type="button" data-s="195/65/15">195/65R15</button><button type="button" data-s="205/55/16">205/55R16</button></div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<div class="strip"><div class="wrap">
+  <div><b>New only</b><span>Brand new tyres, always</span></div>
+  <div><b>Leao &amp; Linglong</b><span>Trusted brands in stock</span></div>
+  <div><b>Delivery</b><span>Anywhere in Lusaka</span></div>
+  <div><b>Open daily</b><span>08:00 to 17:30</span></div>
+</div></div>
+
+<main>
+  <section id="prices">
+    <div class="wrap">
+      <h2>Tyre prices</h2>
+      <p class="lead">Brand new Leao and Linglong tyres at honest prices. Tap a size to ask for it on WhatsApp.</p>
+      <div class="pgrid"></div>
+      <h3 class="more">Other sizes available</h3>
+      <div class="sizes"></div>
+      <p class="note">Prices are per tyre and may change. Message us to confirm price and stock, or to arrange delivery.</p>
+    </div>
+  </section>
+
+  <section id="offers" hidden>
+    <div class="wrap">
+      <h2>Latest offers</h2>
+      <div class="offers" id="offers-row"></div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap ag">
+      <h2>Topline Innovations Limited — Quality You Can Trust, Tyres You Can Rely On!</h2>
+      <div>
+        <p>We supply quality brand-new tyres from trusted brands, including Linglong and LEAO, at competitive prices. We are committed to helping you find the right tyres for your vehicle, with quality you can trust, durability you can rely on, and convenient delivery across Lusaka.</p>
+        <p class="tag">Choose quality. Drive with confidence.</p>
+        <p>Contact us today for prices, check availability, and get the right tyres delivered to your location!</p>
+        <a class="btn" id="aboutWa" href="https://wa.me/260979033871" target="_blank" rel="noopener">Get prices and delivery</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What we do</h2>
+      <div>
+        <div class="row"><h3>Brand new tyres</h3><p>Leao and Linglong, in sizes for cars, SUVs and pickups. Brand new tyres only.</p><span class="price" id="fromPrice">From K700</span></div>
+        <div class="row"><h3>Delivery across Lusaka</h3><p>Tell us your size and area and we bring the right tyres to you. The fee depends on your location.</p><span class="price">Fee by location</span></div>
+        <div class="row"><h3>Car batteries</h3><p>Testing, new batteries and fitting, so you don't get stuck.</p><span class="price">Ask for a quote</span></div>
+        <div class="row"><h3>Auto accessories</h3><p>Everyday accessories to protect, upgrade and personalise your car.</p><span class="price">Ask for a quote</span></div>
+        <div class="row"><h3>Oil and filters</h3><p>Oil changes with oil, air and fuel filters fitted on the spot.</p><span class="price">Ask for a quote</span></div>
+        <div class="row"><h3>Tyre rotation and checks</h3><p>Pressure check and rotation to make your tyres last longer.</p><span class="price">Ask for a quote</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="delivery">
+    <div class="wrap dgrid">
+      <div>
+        <h2>Get tyres delivered</h2>
+        <p class="lead2">We deliver across Lusaka. The delivery fee depends on your location, and we confirm it on WhatsApp before you pay.</p>
+        <ul class="dl"><li>Tell us your size and area</li><li>We confirm price, stock and delivery fee</li><li>We bring the tyres to you</li></ul>
+      </div>
+      <form class="dform" id="dform" novalidate>
+        <label>Your name (optional)<input id="dName" autocomplete="name"></label>
+        <label>Tyre size<input id="dSize" list="sizes-dl" placeholder="e.g. 185/70R14" autocomplete="off"></label>
+        <label>How many tyres<input id="dQty" type="number" min="1" max="20" value="4" inputmode="numeric"></label>
+        <label>Your area in Lusaka<input id="dArea" placeholder="e.g. Kabulonga" autocomplete="off"></label>
+        <p class="est" id="dEst"></p>
+        <div class="err" id="dErr" role="alert"></div>
+        <button class="btn" type="submit">Request delivery on WhatsApp</button>
+        <datalist id="sizes-dl"></datalist>
+      </form>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="wrap">
+      <h2>Three steps</h2>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><h3>Send your size</h3><p>Use the box at the top, or just message us a photo of your tyre.</p></div>
+        <div class="step"><div class="n">2</div><h3>We confirm</h3><p>We reply with the price and whether it's in stock, usually within minutes.</p></div>
+        <div class="step"><div class="n">3</div><h3>Collect or delivery</h3><p>Come by our shop in Chaisa, or we deliver the tyres to your location in Lusaka.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Brands we stock</h2>
+      <div class="bgrid">
+        <article class="bp">
+          <div class="logo-box"><img src="images/linglong-logo.webp" alt="Linglong Tire logo" width="740" height="178"></div>
+          <img class="photo" src="images/linglong-tyre.webp" alt="Linglong Crosswind A/T 205/70R15 tyre in stock" loading="lazy" width="700" height="1244">
+          <div class="info"><h3>Linglong</h3><p>Tough everyday tyres, including the Crosswind A/T for SUVs and pickups.</p></div>
+        </article>
+        <article class="bp leao">
+          <div class="logo-box"><img src="images/leao-logo.webp" alt="Leao Tire logo" width="447" height="236"></div>
+          <img class="photo" src="images/leao-tyres.webp" alt="Leao Nova-Force GP 195/65R15 tyres" loading="lazy" width="800" height="800">
+          <div class="info"><h3>Leao</h3><p>Smooth, quiet tyres for family cars, like the Nova-Force GP and Lion Sport.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="shop">
+    <div class="wrap">
+      <h2>Inside the shop</h2>
+      <div class="gal">
+        <figure class="a"><img src="images/shop-stock.webp" alt="Rows of Linglong and other new tyres stacked in the Topline shop" loading="lazy" width="1100" height="677"></figure>
+        <figure class="b"><img src="images/linglong-ll700.webp" alt="Linglong LL700 175/70R14 tyre in foil wrap" loading="lazy" width="600" height="800"></figure>
+        <figure class="c"><img src="images/shop-front.webp" alt="Topline Innovations shop front on Bimbe Road, Chaisa" loading="lazy" width="645" height="530" style="object-position:center 30%"></figure>
+        <figure class="d"><img src="images/shop-tyres.webp" alt="New tyres wrapped and stacked ready for fitting" loading="lazy" width="1100" height="825"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Need tyres today?</h2>
+      <p>Send your size. We reply with the price and stock.</p>
+      <div class="cta-b"><a class="w" id="ctaWa" href="#" target="_blank" rel="noopener">WhatsApp your size</a><a id="ctaCall" href="#">Call us now</a></div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <h2>Come by</h2>
+      <div class="v-grid">
+        <div>
+          <p class="addr" style="margin-bottom:6px">156 Bimbe Road, Chaisa, Emmasdale, Lusaka</p>
+          <a id="phoneLink" href="#" style="margin-bottom:12px">+260 979 033 871</a>
+          <div class="links">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=-15.3804868,28.2811714" target="_blank" rel="noopener">Get directions</a>
+            <a href="https://www.facebook.com/profile.php?id=61560933303059" target="_blank" rel="noopener">Follow us on Facebook</a>
+          </div>
+          <ul class="phones">
+            <li>Direct lines: <a href="tel:+260974304488">+260 974 304 488</a></li>
+            <li><a href="tel:+260771885685">+260 771 885 685</a></li>
+            <li><a href="tel:+260761639206">+260 761 639 206</a></li>
+          </ul>
+          <p class="mail">Email: <a href="mailto:toplineinnovations81@gmail.com">toplineinnovations81@gmail.com</a></p>
+          <table class="hours">
+            <tr><td>Monday to Sunday</td><td>08:00 - 17:30</td></tr>
+            <tr><td colspan="2" style="text-align:left"><span class="openNow"></span></td></tr>
+          </table>
+        </div>
+        <iframe class="map" title="Map to Topline Innovations, 156 Bimbe Road, Chaisa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=-15.3804868,28.2811714&z=17&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS: add this back when you have a real customer review (ask permission first)
+  <section>
+    <div class="wrap">
+      <p class="quote">"Replace this with a real review from one of your customers."</p>
+      <p class="quote-by">Customer name, Lusaka</p>
+    </div>
+  </section>
+  -->
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div><img src="images/topline-logo.webp" alt="Topline Innovations Limited: Tyres, Batteries, Auto Accessories" width="1050" height="515" loading="lazy"></div>
+    <div><h4>Explore</h4><a href="#prices">Prices</a><a href="#about">About</a><a href="#services">Services</a><a href="#visit">Find us</a></div>
+    <div><h4>Contact</h4><a id="ftPhone" href="#">+260 979 033 871</a><a href="mailto:toplineinnovations81@gmail.com">toplineinnovations81@gmail.com</a><span>156 Bimbe Road, Chaisa, Emmasdale, Lusaka</span><span>Open daily, 08:00 to 17:30</span></div>
+    <div><h4>Follow</h4><a href="https://www.facebook.com/profile.php?id=61560933303059" target="_blank" rel="noopener">Facebook</a><a href="https://www.google.com/maps/dir/?api=1&destination=-15.3804868,28.2811714" target="_blank" rel="noopener">Get directions</a></div>
+  </div>
+  <div class="wrap copy">&copy; <span id="yr"></span> Topline Innovations Limited, Lusaka</div>
+</footer>
+
+<div class="bar">
+  <a class="call" id="callBtn" href="#">Call us</a>
+  <a class="wa" id="waBtn" href="#" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+// ---- Edit these ----
+const SHOP = { name: "Topline Innovations", phone: "260979033871" }; // no + or spaces
+const OPEN = "08:00", CLOSE = "17:30"; // open every day, Lusaka time
+
+// ---- PRICES: edit ONLY here. The price tiles, size buttons, "From K..." line and delivery form all update from this ----
+const PRICED = [["185/70R14","K800"],["175/70R14","K700"],["165R13C","K850"],["700R16","K2,250"],["195R15C","K1,200"]];
+const OTHER = ["175/70R13","175/65R14","185/65R15","185/70R13","195/70R14","195/65R15","195R14C","185R14C","205/55R16","205R16C","225/65R17","265/70R16","700R15","750R16","750R16C"];
+
+const wa = "https://wa.me/" + SHOP.phone;
+document.getElementById("shopName").textContent = SHOP.name;
+document.getElementById("yr").textContent = new Date().getFullYear();
+["callBtn","phoneLink","ctaCall","ftPhone"].forEach(id => document.getElementById(id).href = "tel:+" + SHOP.phone);
+["waBtn","navWa","aboutWa","annWa","ctaWa"].forEach(id => document.getElementById(id).href = wa);
+
+document.querySelector(".pgrid").innerHTML = PRICED.map(([s, p]) => `<a class="pr" data-size="${s}" data-price="${p}"><span class="sz">${s}</span><span class="pc">${p}</span><span class="go">Ask on WhatsApp</span></a>`).join("");
+document.querySelector(".sizes").innerHTML = OTHER.map(s => `<a data-size="${s}">${s}</a>`).join("");
+document.getElementById("fromPrice").textContent = "From K" + Math.min(...PRICED.map(([, p]) => parseInt(p.replace(/\D/g, ""), 10))).toLocaleString("en-US");
+document.getElementById("sizes-dl").innerHTML = [...PRICED.map(x => x[0]), ...OTHER].map(s => `<option value="${s}">`).join("");
+
+document.querySelectorAll("[data-size]").forEach(a => {
+  const size = a.dataset.size, price = a.dataset.price;
+  const msg = price ? `Hi, I'd like a ${size} tyre (${price}). Is it in stock?` : `Hi, do you have a ${size} tyre in stock? What is the price?`;
+  a.href = wa + "?text=" + encodeURIComponent(msg); a.target = "_blank"; a.rel = "noopener";
+});
+
+const w = document.getElementById("w"), p = document.getElementById("p"), r = document.getElementById("r");
+const err = document.getElementById("err");
+
+[[w,3,p],[p,2,r],[r,2,null]].forEach(([el,len,next]) => {
+  el.addEventListener("input", () => {
+    el.value = el.value.replace(/\D/g, "");
+    if (next && el.value.length === len) next.focus();
+  });
+});
+
+document.querySelectorAll(".chips button").forEach(b => b.addEventListener("click", () => {
+  [w.value, p.value, r.value] = b.dataset.s.split("/");
+}));
+
+document.getElementById("finder").addEventListener("submit", e => {
+  e.preventDefault();
+  const W = +w.value, P = +p.value, R = +r.value;
+  if (W < 135 || W > 355 || P < 25 || P > 85 || R < 12 || R > 24) {
+    err.textContent = "Check the size on your tyre. Example: 205 / 55 R 16.";
+    return;
+  }
+  err.textContent = "";
+  const msg = `Hi, I need a price for a ${W}/${P}R${R} tyre. Do you have it in stock?`;
+  window.open(wa + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+});
+
+// ---- Latest offers: add posters here, e.g. {img:"images/offer-oct.webp", title:"October tyre special"} ----
+const OFFERS = [];
+if (OFFERS.length) {
+  const row = document.getElementById("offers-row");
+  OFFERS.forEach(o => {
+    const a = document.createElement("a");
+    a.href = wa + "?text=" + encodeURIComponent("Hi, I saw your offer: " + o.title);
+    a.target = "_blank"; a.rel = "noopener";
+    a.innerHTML = `<img src="${o.img}" alt="${o.title}" loading="lazy"><span>${o.title}</span>`;
+    row.appendChild(a);
+  });
+  document.getElementById("offers").hidden = false;
+}
+
+// ---- Hero video: plays only if video/hero.mp4 exists, and not on reduced-motion or data-saver ----
+const hero = document.getElementById("top"), bgv = document.querySelector(".bgv");
+const calm = matchMedia("(prefers-reduced-motion: reduce)").matches || (navigator.connection && navigator.connection.saveData);
+if (bgv && calm) bgv.remove();
+else if (bgv) {
+  bgv.muted = true;
+  bgv.addEventListener("canplay", () => { hero.classList.add("hasvideo"); bgv.play().catch(() => {}); });
+}
+
+// ---- Gentle reveal on scroll ----
+if (!calm && "IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll("section h2,.pr,.row,.step,.bp,.gal figure,.strip .wrap>div,.cta .wrap").forEach((el, i) => {
+    el.classList.add("rv"); el.style.transitionDelay = (i % 5) * 60 + "ms"; io.observe(el);
+  });
+}
+
+// ---- Open / closed badge (Lusaka time) ----
+const mins = t => +t.slice(0, 2) * 60 + +t.slice(3);
+function updateOpen() {
+  const parts = new Intl.DateTimeFormat("en-GB", { timeZone: "Africa/Lusaka", hour: "numeric", minute: "numeric", hourCycle: "h23" }).formatToParts(new Date());
+  const now = +parts.find(x => x.type === "hour").value * 60 + +parts.find(x => x.type === "minute").value;
+  const open = now >= mins(OPEN) && now < mins(CLOSE);
+  const msg = open ? `Open now · until ${CLOSE}` : now < mins(OPEN) ? `Closed · opens ${OPEN} today` : `Closed · opens ${OPEN} tomorrow`;
+  document.querySelectorAll(".openNow").forEach(el => { el.textContent = msg; el.classList.toggle("is-open", open); });
+}
+updateOpen(); setInterval(updateOpen, 60000);
+
+// ---- Delivery request form ----
+const key = t => t.toUpperCase().replace(/[^0-9A-Z]/g, "").replace(/R/g, "");
+const priceOf = {};
+PRICED.forEach(([s, p]) => priceOf[key(s)] = { size: s, n: parseInt(p.replace(/\D/g, ""), 10) });
+const dSize = document.getElementById("dSize"), dQty = document.getElementById("dQty"), dEst = document.getElementById("dEst");
+function estimate() {
+  const hit = priceOf[key(dSize.value)], q = Math.max(1, parseInt(dQty.value, 10) || 1);
+  dEst.textContent = hit ? `Estimate: ${q} × K${hit.n.toLocaleString("en-US")} = K${(q * hit.n).toLocaleString("en-US")} (tyres only, delivery extra)` : dSize.value.trim() ? "We'll confirm the price for this size on WhatsApp." : "";
+}
+dSize.addEventListener("input", estimate); dQty.addEventListener("input", estimate);
+document.getElementById("dform").addEventListener("submit", e => {
+  e.preventDefault();
+  const size = dSize.value.trim(), area = document.getElementById("dArea").value.trim(), name = document.getElementById("dName").value.trim();
+  const q = Math.max(1, parseInt(dQty.value, 10) || 1), dErr = document.getElementById("dErr");
+  if (!size || !area) { dErr.textContent = "Please add your tyre size and your area."; return; }
+  dErr.textContent = "";
+  const msg = `Hi, I'd like delivery.\nName: ${name || "-"}\nTyre size: ${size}\nQuantity: ${q}\nArea: ${area}\n(Please confirm the delivery fee for my location.)`;
+  window.open(wa + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+});
+</script>
+</body>
+</html>
